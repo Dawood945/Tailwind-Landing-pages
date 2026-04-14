@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <!-- images -->
+     <div>
+         <img src="images/main.jpg" alt="" class="h-96 w-full">
+         <div class="flex gap-8 absolute items-center top-80 left-[26rem]">
+            <img src="images/interior-of-the-bedroom-royalty-free-image-1687286870.jpg" alt="" class="w-28 h-28 border-4">
+            <img src="images/bed.jpg" alt="" class="w-28 h-28 border-4">
+            <img src="images/bebc7068.jpg" alt="" class="w-28 h-28 border-4">
+        </div>
+    </div>
+    <!-- heading & paragragh -->
+    <div class="text-center mt-20 pb-10">
+        <h1 class="text-2xl font-bold">Hotel Booking</h1>
+        <p>Experience something new every moment</p>
+    </div>
+    <!-- form -->
+    <div class="px-10">
+        <div class="flex items-center">
+        
+        <div>
+            <h4 class="">Name</h4>
+            <input type="text" name="fname" id="fname" class="border">
+            <input type="text" name="lname" id="lname" class="border">
+        </div>
+        <div>
+            <h4>E-mail</h4>
+            <input type="email" name="email" id="email" placeholder="ex: myname@example.com" class="border py-1 ">
+        </div>
+    </div>
+
+        <h4>Room Type</h4>
+        <select name="room" id="room">
+            <option value="select">Please Select</option>
+            <option value="single">Single Room</option>
+            <option value="double">Double Room</option>
+            <option value="triple">Triple Room</option>
+            <option value="suite">Suite</option>
+            <option value="deluxe">Deluxe</option>
+            <option value="presendential">Presendential Suite</option>
+        </select>
+
+        <label for="">Number of Guests</label>
+        <input type="number" name="" id="" class="border">
+        <br><br>
+
+        <label for="">Arrival Date and Time</label>
+        <input type="date" name="" id="" class="border">
+        <input type="time" name="" id="" class="border">
+        <br><br>
+
+        <label for="">Departure Date</label>
+        <select name="" id="">
+            <option value="select">Plaese Select a Month</option>
+            <option value="">January</option>
+            <option value="">February</option>
+            <option value="">March</option>
+            <option value="">April</option>
+            <option value="">May</option>
+            <option value="">June</option>
+            <option value="">July</option>
+            <option value="">August</option>
+            <option value="">September</option>
+            <option value="">October</option>
+            <option value="">November</option>
+            <option value="">December</option>
+        </select>
+        <select name="" id="">
+            <option value="select">Plaese Select a Day</option>
+            <option value="">01</option>
+            <option value="">02</option>
+            <option value="">03</option>
+            <option value="">04</option>
+            <option value="">05</option>
+            <option value="">June</option>
+            <option value="">July</option>
+            <option value="">August</option>
+            <option value="">September</option>
+            <option value="">October</option>
+            <option value="">November</option>
+            <option value="">December</option>
+        </select>
+        <select name="" id="">
+            <option value="select">Plaese Select a Month</option>
+            <option value="">January</option>
+            <option value="">February</option>
+            <option value="">March</option>
+            <option value="">April</option>
+            <option value="">May</option>
+            <option value="">June</option>
+            <option value="">July</option>
+            <option value="">August</option>
+            <option value="">September</option>
+            <option value="">October</option>
+            <option value="">November</option>
+            <option value="">December</option>
+        </select>
+        <br><br>
+
+        <label for="">Free Pickup</label>
+        <br>
+        <input type="radio" name="" id="">
+        <label for="">Yes Please! - Pick me up on arrival</label>
+        <input type="radio" name="" id="">
+        <label for="">No Thanks! - I'll make my own way there</label>
+
+        <h4>Special Requests</h4>
+        <textarea name="" id="" cols="100" rows="5" class="border"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit" class="text-white bg-green-400 px-8 py-2 rounded-sm">
+    </div>
+</body>
+</html>

@@ -49,7 +49,5 @@ MIT - Feel free to use & modify!
 - Fork & PR improvements.
 - Add new landing demos to `src/`.
 
-**Live Demo:** [Deploy to Netlify/Vercel](https://vercel.com/new) (drag-drop this folder).
-
 ⭐ Star if useful!
 
